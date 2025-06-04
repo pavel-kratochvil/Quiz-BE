@@ -3,5 +3,13 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "node": "^22.16.0"
+  },
+  "scripts": {
+    "start": "ts-node ./src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
