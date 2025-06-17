@@ -1,4 +1,4 @@
-require("./quizApi/quizApi");
+require("./quiz/quizApi");
 
 import app from "./apiRunner";
 

@@ -105,4 +105,4 @@ async function applyChangelog(fileName: string) {
   }
 }
 
-module.exports = client;
+export default client;
