@@ -1,6 +1,7 @@
-const { Client } = require("pg");
+const { Client, types } = require("pg");
 const fs = require("fs");
 const changelogs_directory = "./src/database/changelogs";
+types.setTypeParser(20, (val: any) => parseInt(val, 10)); // Zajišťuje aby se ID nevracely jako string
 
 // Nastavení databáze
 const dbConfig = {

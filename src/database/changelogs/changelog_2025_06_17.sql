@@ -11,9 +11,9 @@ CREATE TABLE quiz (
     date_created timestamp default current_timestamp
 );
 
-CREATE TABLE question (
+CREATE TABLE questions (
     id bigserial primary key,
-    text varchar(255) not null,
+    question varchar(255) not null,
     answer varchar(255) not null,
     relevant_answers TEXT[],
     explanation text,
